@@ -1,4 +1,4 @@
-const { I, navigationFragment, cookiesFragment } = inject();
+const { I, navigationFragment, cookiesFragment,  } = inject();
 let state = {};
 
 Before(() => {

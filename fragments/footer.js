@@ -1,5 +1,5 @@
-const { I, navigationFragment, aboutPage, responsibleGamingPage } = inject();
-
+const { I, navigationFragment, aboutPage, responsibleGamingPage, termConditionPage } = inject();
+//
 module.exports = {
 
     // locators
@@ -7,6 +7,7 @@ module.exports = {
     // methods
 
     async goToFooterLink(dataTable, state) {
+      
         let i = 0;
         while (dataTable.parse().hashes()[i] != undefined) {
             state['expectedDescription' + i] = dataTable.parse().hashes()[i].expectedDescription;

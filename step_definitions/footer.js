@@ -1,4 +1,4 @@
-const { I, footerFragment } = inject();
+const { I, footerFragment  } = inject();
 let state = {};
 
 Before(() => {
@@ -7,8 +7,15 @@ Before(() => {
 
 When('the user goes to the link in footer', async (dataTable) => {
   await footerFragment.goToFooterLink(dataTable, state);
+
 });
 
 Then('the user sees text content in the page', () => {
   footerFragment.validateContent(state);
 });
+
+
+
+
+
+

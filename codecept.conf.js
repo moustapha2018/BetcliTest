@@ -25,6 +25,7 @@ exports.config = {
     offerSearchFragment: './fragments/offerSearch.js',
     footerFragment: './fragments/footer.js',
     aboutPage: './pages/about.js',
+    termConditionPage: './pages/termCondition.js',
     responsibleGamingPage: './pages/responsibleGaming.js'
   },
   mocha: {},

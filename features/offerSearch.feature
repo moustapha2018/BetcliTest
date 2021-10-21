@@ -9,8 +9,8 @@ Feature: Offering Search
   Scenario: No result found
     Given a user coming to Betclic
     When the user searches matches or competitions with invalid data
-      | regul | input     | expectedTitle   | expectedDescription                                                  |
-      | fr    | Réverbère | Pas de résultat | Est-ce un match ou une compétition ? Peut être une faute de frappe ? |
+      | regul | input     | expectedTitle   | expectedDescription                                                  | 
+      | fr    | Réverbère | Pas de résultat | Est-ce un match ou une compétition ?, Peut être une faute de frappe ? |
     Then the user founds no matches or competitions
 
 

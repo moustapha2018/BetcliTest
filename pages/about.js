@@ -6,6 +6,6 @@ module.exports = {
   aboutButton: '#footer_about',
   aboutPageContent: '//div[contains(@class,"listeContent")]//p[1]',
 
-  // methods
+  // methods 
 
 }
